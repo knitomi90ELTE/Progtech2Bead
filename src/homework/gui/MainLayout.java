@@ -29,7 +29,7 @@ import javax.swing.table.*;
 	    private JMenuItem addNewCustomer;
 	    private JMenuItem customerDetailsItem;
 	    private JMenuItem exitItem;
-	    private JMenuItem login;
+	    
 	    private JPopupMenu loanMoviePopUp;
 	    
 	    private JLabel addNewMovie;
@@ -108,7 +108,7 @@ import javax.swing.table.*;
 	        loanMenuItem = new JMenuItem();
 	        addNewCustomer = new JMenuItem();
 	        customerDetailsItem = new JMenuItem();
-	        login = new JMenuItem();
+	        
 	        loanMoviePopUp = new JPopupMenu();
 	        
 	        loanLabel = new JLabel();
@@ -628,7 +628,7 @@ import javax.swing.table.*;
 	            }
 	        });
 	        fileMenu.add(exitItem);
-	        fileMenu.add(login);
+	        
 
 	        menubar.add(fileMenu);
 
